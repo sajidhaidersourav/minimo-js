@@ -1,0 +1,108 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header */
+    .menu li {
+        margin-left: 0px;
+    }
+    /* getaway */
+    .getaway{
+        padding: 50px 0px 0px;
+    }
+    /* newsleater */
+    .newsleater{
+        padding: 30px 0px;
+        margin: 40px 0px;
+    }
+    form{
+        width: 300px;
+     }
+    form input{
+        width: 270px;
+     }
+     form button{
+        right: 15px;
+     }
+     .n_h2{
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+    /* load */
+    .load_more{
+        padding: 20px 0px;
+        margin: 30px 0px 70px;
+    }
+    .button{
+        width: 125px;
+        height: 50px;
+    }
+ }
+/* fotter icon */
+.icon{
+    margin-top: 35px;
+}
+.icon li{
+    margin-left: 5px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header */
+    .menu li {
+        margin-left: 0px;
+    }
+    /* getaway */
+    .getaway {
+        padding: 50px 0px 30px;
+    }
+    .icon{
+        margin-top: 10px;
+    }
+    .icon li{
+        margin-left: 20px;
+    }
+     }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header */
+    .menu li {
+        margin-left: 0px;
+    }
+    .icon{
+        margin-top: 10px;
+    }
+    .icon li{
+        margin-left: 20px;
+    }
+     }
+    
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .icon{
+        margin-top: 10px;
+    }
+    .icon li{
+        margin-left: 30px;
+    }
+     }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .icon{
+        margin-top: 10px;
+    }
+    .icon li{
+        margin-left: 30px;
+    }
+     }
+ 
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* fotter icon */
+.icon{
+    margin-top: 10px;
+}
+.icon li{
+    margin-left: 30px;
+}
+ }
+
